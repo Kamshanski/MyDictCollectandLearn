@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dawandeapp.mydictcollectandlearn">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".zHelpClasses.TestActivity"></activity>
+        <activity android:name=".Learning.FinishActivity" />
+        <activity
+            android:name=".Learning.LearningActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Learning.ChooseModesActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Learning.ChooseDictActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".EditAndView.ViewWordsActivity"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".EditAndView.ViewDictsActivity"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Create.CreatedDictActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Create.CreateWordsActivity"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Create.CreateDictActivity"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".OpenAct" />
+        <activity android:name=".NextPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true">
+
+            <!-- android:exported="false"> -->
+
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edtHint_NameOfNewDict">Название словаря</string>
+
+    <string name="edtHint_ForeignWordIn">Слово на %s</string>
+    <string name="edtHint_TranslationWordIn">Слово на %s</string>
+    <string name="edtHint_EnterNewName">Введите новое название</string>
+</resources>

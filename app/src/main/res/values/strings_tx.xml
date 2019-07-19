@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Common-->
+    <string name="tx_CreateDict_NewDictLabel">Новый словарь</string>
+    <string name="tx_CreateDict_hint1">МОЖНО писать развёрнутые переводы и предложения\nВ упражнениях вопросами будут ТОЛЬКО слова на первом языке, а ответами - на втором</string>
+    <string name="tx_CreateDict_hint2">НЕЛЬЗЯ писать развёрнутые переводы и предложения\nВ упражнениях и вопросами, и ответами будт слова на обоих языках</string>
+    <string name="tx_CreateDict_hintNone">Пожалуйста, выберите тип словаря</string>
+    <string-array name="tx_CreateDict_Arrow">
+        <item>x</item>
+        <item>⬅</item>
+        <item>⬌</item>
+    </string-array>
+    <string name="tx_Language1">Язык 1</string>
+    <string name="tx_Language2">Язык 2</string>
+    <string name="tx_word">слово</string>
+    <string name="tx_words">слова</string>
+    <string name="tx_dict">словарь</string>
+    <string name="tx_dicts">словарей</string>
+
+    <!--CreateWords-->
+    <string name="tx_CreateWords_ZeroWordsAreWritten">Записано 0 слов (минимум 5)</string>
+    <string name="tx_CreateWords_FewWordsAreWritten">Записано %d слов (минимум 5)</string>
+    <string name="tx_CreateWords_EnoughWordsAreWritten">Записано %d слов</string>
+
+    <!--CreateDict-->
+    <string name="tx_CreatedDict_DictWasCreatedSuccessfully">Словарь %s успешно создан</string>
+    <string name="tx_CreatedDict_pairAmount">Записано %d карточек на %s и %s </string>
+
+    <!--ViewDicts-->
+    <string name="tx_ViewDicts_dictsAmount">Всего %d словарей</string>
+    <string name="tx_ViewDicts_dictInfo">%d слов, %s %s %s</string>
+
+    <!--ViewWords-->
+    <string name="tx_ViewWords_dictName">Словарь %s</string>
+
+    <!--ChooseDict-->
+    <string name="tx_ChooseDict_chooseDict">Выберите словарь для изучения</string>
+
+    <!--ChooseMode-->
+    <string name="tx_ChooseMode_chooseModes">Выберите режимы для изучения %s</string>
+
+    <!--Learning-->
+    <string name="tx_Learning_counter">Вы выполнили %d из %d</string>
+
+    <!--TASKS-->
+    <string name="tx_TypeTranslation_enterTranslation">Напишите перевод для…</string>
+    <string name="tx_ChooseTranslation_chooseProperTranslation">Выберите верный перевод для…</string>
+    <string name="tx_TypeTranslation_check">✓</string>
+
+    <!--Finish-->
+    <string name="tx_Finish_results">Словарь %s, верно %d из %d</string>
+
+
+</resources>

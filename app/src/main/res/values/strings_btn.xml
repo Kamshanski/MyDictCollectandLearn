@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_continue">Продолжить</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_complete">Завершить</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_rename">Переименовать</string>
+    <string name="btn_change">Изменить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_OK">OK</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_remember">Помню</string>
+    <string name="btn_so_so">Так себе</string>
+    <string name="btn_forget">Не помню(</string>
+
+
+
+    <string name="btn_StartLearning">Начать изучение</string>
+    <string name="btn_CreateDict">Создать словарь</string>
+    <string name="btn_ViewDitcs">Посмотреть словари</string>
+    <string name="btn_ViewStat">Статистика</string>
+    <string name="btn_Settings">Настройки</string>
+    <string name="btn_AboutApp">О приложении (никто не будет смотреть((()</string>
+
+
+    <string name="radBtn_bilateral">Туда-сюда</string>
+    <string name="radBtn_unilateral">В одну сторону</string>
+
+    <!--MenuOptions-->
+    <string name="tx_ViewDicts_menu_">Переименовать</string>
+
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.constraint.motion.MotionLayout
+        android:id="@+id/ML_trust_card"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:layoutDescription="@xml/scene_flip">
+
+        <FrameLayout
+            android:id="@+id/CL_top_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.constraint.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tx_task_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="40dp"
+                    android:gravity="center"
+                    android:text="miraiiiiiiiiiii"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/CL_bottom_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+                <android.support.constraint.ConstraintLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tx_task_answer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="40dp"
+                        android:gravity="center"
+                        android:text="@string/tx_ChooseDict_chooseDict"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                </android.support.constraint.ConstraintLayout>
+        </FrameLayout>
+    </android.support.constraint.motion.MotionLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/TextAppearance.AppCompat.Button"
+            android:id="@+id/btn_task_correct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:background="@color/correct"
+            android:text="@string/btn_remember"/>
+
+        <Button
+            android:id="@+id/btn_task_soso"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/gray"
+            android:text="@string/btn_so_so" />
+
+        <Button
+            android:id="@+id/btn_task_wrong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginEnd="8dp"
+            android:background="@color/wrong"
+            android:text="@string/btn_forget"/>
+
+    </LinearLayout>
+
+</LinearLayout>

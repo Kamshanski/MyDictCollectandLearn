@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyDict: Collect and Learn</string>
+    <string name="warn_EmptyFields">Пожалуйста, заполните все поля</string>
+    <string name="warn_NotEnoughWords">Недостаточно слов для создания словаря (минимум 5)</string>
+    <string name="warn_DictCreatedSuccessfully">Словарь успешно создан</string>
+
+
+
+    <string-array name="languages_long">
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Китайский</item>
+        <item>Японский</item>
+    </string-array>
+
+    <string-array name="languages_long_prep">
+        <item>Русском</item>
+        <item>Английском</item>
+        <item>Китайском</item>
+        <item>Японском</item>
+    </string-array>
+
+    <string-array name="languages_short">
+        <item>Рус</item>
+        <item>Анг</item>
+        <item>Кит</item>
+        <item>Япо</item>
+    </string-array>
+    <string-array name="modes_names">
+        <item>Написать перевод</item>
+        <item>Выбрать перевод</item>
+        <item>Карточки на доверие</item>
+    </string-array>
+
+    <string name="voidText">Void text</string>
+</resources>

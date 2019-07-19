@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition android:id="@+id/flip_transition"
+        app:constraintSetEnd="@+id/bottom"
+        app:constraintSetStart="@+id/top"
+        app:duration="1700">
+
+        <KeyFrameSet android:id="@+id/flip_keyFrameSet">
+            <KeyAttribute
+                app:motionTarget="@+id/CL_top_card"
+                android:scaleX="0.9"
+                android:scaleY="0.9"
+                app:framePosition="50"
+                android:rotationY="90"/>
+
+            <KeyAttribute
+                app:motionTarget="@+id/CL_bottom_card"
+                android:scaleX="0.9"
+                android:scaleY="0.9"
+                app:framePosition="50"
+                android:rotationY="-90"/>
+        </KeyFrameSet>
+
+    </Transition>
+
+    <!--<Transition android:id="@+id/flip_transition_back"-->
+        <!--app:constraintSetEnd="@+id/top"-->
+        <!--app:constraintSetStart="@+id/bottom"-->
+        <!--app:duration="1500">-->
+
+        <!--<KeyFrameSet >-->
+            <!--<KeyAttribute-->
+                <!--app:targetId="@+id/CL_top_card"-->
+                <!--app:framePosition="50"-->
+                <!--android:rotationY="90"/>-->
+
+            <!--<KeyAttribute-->
+                <!--app:targetId="@+id/CL_bottom_card"-->
+                <!--app:framePosition="50"-->
+                <!--android:rotationY="-90"/>-->
+        <!--</KeyFrameSet>-->
+
+    <!--</Transition>-->
+
+
+
+    <ConstraintSet android:id="@+id/top">
+
+        <Constraint
+            android:id="@id/CL_top_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:rotationY="0"/>
+
+        <Constraint
+            android:id="@id/CL_bottom_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:rotationY="-90"/>
+    </ConstraintSet>
+
+    <ConstraintSet
+        android:id="@+id/bottom">
+
+        <Constraint
+            android:id="@id/CL_top_card"
+            android:rotationY="90"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Constraint
+            android:id="@id/CL_bottom_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:rotationY="0"/>
+    </ConstraintSet>
+
+</MotionScene>
